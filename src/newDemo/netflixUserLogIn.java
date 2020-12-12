@@ -18,7 +18,7 @@ public class netflixUserLogIn {
 //		driver.findElement(By.xpath("//div[@className='btn login-button btn-submit btn-small'/following-sibling::input]")).click();
 		Thread.sleep(2000);
 		String at = driver.getTitle();
-		String et = "footlocker";
+		String et = "netflix";
 		driver.close();
 		if(at.equalsIgnoreCase(et))
 		{

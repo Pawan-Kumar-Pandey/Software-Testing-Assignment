@@ -15,7 +15,7 @@ public class reedeemCode {
 
 		Thread.sleep(2000);
 		String at = driver.getTitle();
-		String et = "footlocker";
+		String et = "netflix";
 		driver.close();
 		if(at.equalsIgnoreCase(et))
 		{
